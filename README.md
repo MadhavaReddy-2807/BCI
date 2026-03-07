@@ -112,8 +112,16 @@ Dropout is used again to improve generalization.
 
 Finally, the extracted features are flattened and passed to a fully connected layer, which outputs predictions for the three classes used in the model
 
+## Next Steps
+
+The next step using this model is to create a **communication system** where a window continuously moves on the screen. When the system detects a **motor imagery signal** from the brain, the moving window will stop, allowing the user to select or communicate a specific option.
+
+Another goal is to use the detected brain signals to **control a bot**, where different motor imagery signals can be converted into commands for bot movement or actions.
+
+
 ### NOTE:
 Final note books will be avaliable in the folder **Final Models**. Other notebooks are just my working on different models.
+Testing model is used to Test the DL model using the weights saved
 ## Contact
 
 Email:madhava2807@gmail.com
